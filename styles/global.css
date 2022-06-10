@@ -17,6 +17,8 @@ body {
 .bg-main {
     width: 100%;
     background-color: var(--main-color);
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
