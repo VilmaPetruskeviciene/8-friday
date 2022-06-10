@@ -53,18 +53,6 @@
     margin-left: 19px;
 }
 
-
-.nav-a {
-    display: none;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    color: #02577A;
-    text-decoration: none;
-    margin-left: 19px;
-}
-
 .nav-icon {
     display: flex;
     flex-direction: row;
@@ -74,6 +62,7 @@
 }
 
 .nav-a {
+    display: none;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -123,3 +112,6 @@ footer > p {
     display: inline-block;
 }
 
+.nav:hover .a-img {
+    justify-content: start;
+}
