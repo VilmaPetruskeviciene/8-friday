@@ -1,0 +1,16 @@
+{
+  "name": "8-friday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=3008 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "vilma",
+  "license": "MIT",
+  "devDependencies": {
+    "dead-server": "^1.0.6"
+  }
+}
