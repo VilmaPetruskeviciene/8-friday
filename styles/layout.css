@@ -57,8 +57,6 @@
 .nav-icon {
     display: flex;
     flex-direction: row;
-    /*justify-content: center;
-    align-items: flex-start;*/
     margin-bottom: 34px;
     align-self: flex-start;
     margin-left: 37px;
