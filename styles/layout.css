@@ -1,5 +1,8 @@
 .nav {
-    width: 206px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
     height: 100vh;
     margin-left: 0px;
     background-color: #F7F6FF;
@@ -9,14 +12,12 @@
 .logo {
     width: 68px;
     height: 34px;
-    margin-left: 69px;
     margin-top: 44px;
 }
 
 .hr-short {
-    width: 128px;
+    width: 60%;
     height: 0px;
-    margin-left: 39px;
     margin-top: 32px;
     border: 2px solid #C4C4C4;
 }
@@ -26,19 +27,35 @@
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    width: 195px;
+    width: 100%;
+    min-width: 85px;
+    max-width: 195px;
     height: 57px;
     margin: 32px 0 32px 11px;
     background: #FFFFFF;
     border-radius: 25px 0px 0px 25px;
 }
 
-.a-img {
+.home-img {
     height: 25px;
-    color: #C4C4C4;
+    color: #02577A;
+    margin-left: 32px;
 }
 
-.home > a {
+.home-a {
+    display: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #02577A;
+    text-decoration: none;
+    margin-left: 19px;
+}
+
+
+.nav-a {
+    display: none;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -88,5 +105,21 @@ footer > p {
     color: #02577A;
     margin-top: 11px;
     padding-bottom: 13px;
+}
+
+
+
+
+.nav:hover {
+    transition: 1s;
+    width: 206px;
+}
+
+.nav:hover .home-a {
+    display: inline-block;
+}
+
+.nav:hover .nav-a {
+    display: inline-block;
 }
 
