@@ -33,10 +33,9 @@
     border-radius: 25px 0px 0px 25px;
 }
 
-.home > img {
+.a-img {
     height: 25px;
-    color: #02577A;
-    margin-left: 32px;
+    color: #C4C4C4;
 }
 
 .home > a {
@@ -57,11 +56,7 @@
     margin-bottom: 34px;
 }
 
-.nav-icon > img {
-    color: #C4C4C4;
-}
-
-.nav-icon > a {
+.nav-a {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -95,6 +90,3 @@ footer > p {
     padding-bottom: 13px;
 }
 
-a:hover {
-    text-decoration: underline;
-}
