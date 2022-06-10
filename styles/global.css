@@ -1,0 +1,22 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+:root {
+    --main-color: #E5E5E5;
+}
+
+.bg-main {
+    width: 100%;
+    background-color: var(--main-color);
+    display: inline-block;
+}
+
