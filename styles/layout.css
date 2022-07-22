@@ -105,10 +105,10 @@
 }
 
 .date {
-    padding: 8% 16%;
+    padding: 3% 18%;
     background-color: #FFF;
     border-radius: 25px;
-    justify-self: center;
+    justify-self: right;
 }
 
 .date > h2 {
@@ -133,7 +133,7 @@
 }
 
 .home-text {
-    width: 80%;
+    width: 70%;
     padding-top: 3%;
     padding-bottom: 3%;
     border: 2px solid #02577A;
@@ -191,3 +191,24 @@ footer > p {
 .nav:hover .a-img {
     justify-content: start;
 }
+
+@media (max-width: 700px) {
+    .morning-date {
+        grid-template-columns: 1fr;
+        margin-top: 44px;
+    }
+    .morning > h2 {
+        text-align: center;
+    }
+    .date {
+        justify-self: center;
+    }
+    .date > p {
+        text-align: center;
+    
+    }
+    .home-text {
+        width: 90%;
+    }
+}
+
