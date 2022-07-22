@@ -150,13 +150,16 @@
 }
 
 footer {
-    width: calc(100% - 206px);
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hr-long {
-    width: 346px;
+    width: 40%;
     height: 0px;
-    margin-left: calc(50% - 346px/2);
+    align-self: center;
     background-color: #02577A;
     border: 1px solid #02577A;
 }
@@ -192,6 +195,8 @@ footer > p {
     justify-content: start;
 }
 
+
+
 @media (max-width: 700px) {
     .morning-date {
         grid-template-columns: 1fr;
@@ -210,5 +215,21 @@ footer > p {
     .home-text {
         width: 90%;
     }
+    .hr-long {
+        width: 80%;
+    }
 }
 
+@media (max-width: 450px) {
+    .nav:hover {
+        width: 100px;
+    }
+    
+    .nav:hover .home-a {
+        display: none;
+    }
+    
+    .nav:hover .nav-a {
+        display: none;
+    }
+}
