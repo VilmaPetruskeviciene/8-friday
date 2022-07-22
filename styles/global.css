@@ -4,7 +4,6 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 body {
@@ -12,7 +11,7 @@ body {
 }
 
 :root {
-    --main-color: #E5E5E5;
+    --main-color: #EBEEF5;
 }
 
 .bg-main {
