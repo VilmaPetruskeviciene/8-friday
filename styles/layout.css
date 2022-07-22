@@ -199,18 +199,16 @@ footer > p {
 
 @media (max-width: 700px) {
     .morning-date {
-        grid-template-columns: 1fr;
         margin-top: 44px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
     }
     .morning > h2 {
         text-align: center;
     }
     .date {
         justify-self: center;
-    }
-    .date > p {
-        text-align: center;
-    
     }
     .home-text {
         width: 90%;
