@@ -1,7 +1,13 @@
+.nav-icon-active {
+    margin-bottom: 0px;
+    margin-top: 34px;
+}
+
 .calendar-main {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 130px;
 
 }
 
@@ -154,6 +160,32 @@ color: #C4C4C4;
     color: #FFF;
     padding: 11px 14px;
     border-radius: 50%;
+}
+
+.btn-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FFF;
+    background-color: #02577A;
+    border: 3px solid #02577A;
+    text-decoration: none;
+    position: fixed;
+    bottom: 106px;
+    left: 168px;
+}
+
+.btn-circle:hover {
+    color: #02577A;
+    background-color: #EBEEF5;;
+    border: 3px solid #02577A;
 }
 
 @media (max-width: 1200px) {
