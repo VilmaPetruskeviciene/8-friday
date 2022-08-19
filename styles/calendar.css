@@ -157,6 +157,12 @@ color: #C4C4C4;
 }
 
 @media (max-width: 1200px) {
+    .prog {
+        margin-right: 16px;
+    }
+    .calendar {
+        margin-left: 16px;
+    }
     .week-day {
         font-size: 16px;
         margin: auto;
@@ -174,4 +180,118 @@ color: #C4C4C4;
             font-size: 16px;
             padding: 4px 10px;
         }
+}
+
+@media (max-width: 850px) {
+    .calendar-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        }
+        .prog {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .calendar {
+            width: 90%;
+            margin-bottom: 32px;
+        }
+    .week-day {
+        font-size: 24px;
+        margin: auto;
+        }
+    .cal-days {
+        gap: 34px;
+        }
+    .day {
+        font-size: 24px;
+        }
+    .day-kt {
+        font-size: 24px;
+        }
+    .day-active {
+            font-size: 24px;
+            padding: 11px 14px;
+        }
+    .nav:hover {
+            width: 100px;
+        }
+        
+    .nav:hover .home-a {
+            display: none;
+        }
+        
+    .nav:hover .nav-a {
+            display: none;
+        }
+}
+
+@media (max-width: 650px) {
+    .prog {
+        margin-right: 16px;
+    }
+    .calendar {
+        margin-left: 16px;
+    }
+    .week-day {
+        font-size: 16px;
+        margin: auto;
+        }
+    .cal-days {
+        gap: 24px;
+        }
+    .day {
+        font-size: 16px;
+        }
+    .day-kt {
+        font-size: 16px;
+        }
+    .day-active {
+            font-size: 16px;
+            padding: 4px 10px;
+        }
+}
+
+@media (max-width: 500px) {
+    .prog {
+        margin-right: 12px;
+    }
+    .calendar {
+        margin-left: 10px;
+    }
+    .week-day {
+        font-size: 12px;
+        margin: auto;
+        }
+    .cal-days {
+        gap: 15px;
+        }
+    .day {
+        font-size: 12px;
+        }
+    .day-kt {
+        font-size: 12px;
+        }
+    .day-active {
+            font-size: 12px;
+            padding: 1px 8px;
+        }
+    .prog-h {
+            font-size: 18px;
+        }
+        
+    .prog-p {
+            font-size: 14px;
+            margin-top: 6px;
+            margin-bottom: 12px;
+        }
+        
+    .prog-hr {
+            width: 160px;
+            height: 18px;
+        }
+        
 }
